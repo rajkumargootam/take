@@ -1,6 +1,9 @@
-body{
-  font-family: 'Open Sans', sans-serif;
-}
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
 #land {
   background: url("../images/land.jpg");
   background-size: cover;
@@ -8,37 +11,33 @@ body{
   background-position: 50% 50%;
   color: #FFF;
   border: 1px solid transparent;
-  position: relative;
-}
-#land header {
-  margin-top: 3rem;
-}
+  position: relative; }
+  #land header {
+    margin-top: 3rem; }
+    #land header i {
+      font-size: 4rem;
+      line-height: 4rem; }
+    #land header span {
+      font-size: 2rem;
+      line-height: 4rem;
+      position: relative;
+      top: -0.5rem;
+      left: 1rem;
+      font-style: italic; }
+  #land .welcome-msg {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%); }
+    #land .welcome-msg h1 {
+      font-size: 4vw;
+      font-weight: 300; }
+    #land .welcome-msg p {
+      font-size: 1vw; }
 
-#land header i {
-  font-size: 4rem;
-  line-height: 4rem;
-}
+#intro {
+  padding: 4em 0 3em 0;
+  color: #717171; }
+  #intro p {
+    padding: 1em 0; }
 
-#land header span {
-  font-size: 2rem;
-  line-height: 4rem;
-  position: relative;
-  top: -0.5rem;
-  left: 1rem;
-  font-style: italic;
-}
-
-#land .welcome-msg {
-  position: absolute;
-  top:60%;
-  transform: translateY(-50%);
-}
-
-#land .welcome-msg h1 {
-  font-size: 4vw;
-  font-weight: 300;
-}
-
-#land .welcome-msg p {
-  font-size: 1vw;
-}
+/*# sourceMappingURL=app.css.map */
