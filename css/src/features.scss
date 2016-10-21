@@ -1,28 +1,28 @@
 #features{
   #design-quality{
     background-color: #f5999e;
-    color: #FFF;
+    color: $light-font-color;
   }
   #build-to-last{
     background-color: #625f7e;
-    color: #FFF;
+    color: $light-font-color;
   }
   #our-client{
     background: url("../images/features/our-clients.jpg");
     background-size: cover;
-    color: #FFF;
+    color: $light-font-color;
   }
   #sing-up{
     background: url("../images/features/sign-up.jpg");
     background-size: cover;
-    color: #FFF;
+    color: $light-font-color;
   }
   #perfect-picture{
     background-color:#82ca9c;
-    color: #FFF;
+    color: $light-font-color;
   }
   a {
-    color: #FFF;
+    color: $light-font-color;
     margin: 1em 0 3em;
     display: inline-block;
   }

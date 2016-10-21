@@ -65,7 +65,8 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline; }
 
 #details {
-  padding: 1em 0; }
+  padding: 1em 0;
+  color: #717171; }
   #details h1 {
     margin: 1em 0 1em 0;
     font-weight: 300; }
