@@ -61,5 +61,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFF;
   margin: 1em 0 3em;
   display: inline-block; }
+#features:hover {
+  text-decoration: underline; }
 
 /*# sourceMappingURL=app.css.map */
