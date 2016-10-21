@@ -40,4 +40,26 @@ h1, h2, h3, h4, h5, h6 {
   #intro p {
     padding: 1em 0; }
 
+#features #design-quality {
+  background-color: #f5999e;
+  color: #FFF; }
+#features #build-to-last {
+  background-color: #625f7e;
+  color: #FFF; }
+#features #our-client {
+  background: url("../images/features/our-clients.jpg");
+  background-size: cover;
+  color: #FFF; }
+#features #sing-up {
+  background: url("../images/features/sign-up.jpg");
+  background-size: cover;
+  color: #FFF; }
+#features #perfect-picture {
+  background-color: #82ca9c;
+  color: #FFF; }
+#features a {
+  color: #FFF;
+  margin: 1em 0 3em;
+  display: inline-block; }
+
 /*# sourceMappingURL=app.css.map */
